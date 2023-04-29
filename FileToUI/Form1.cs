@@ -54,7 +54,6 @@ namespace FileToUI
             }
             string path = openFileDialog.FileName;
             openFileDialog.Dispose();
-            //if (temp!="") { File.WriteAllText(path, temp); }
         }
     }
 }
